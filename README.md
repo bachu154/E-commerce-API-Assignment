@@ -1,30 +1,77 @@
-# Backend Developer Intern
+# 🛒 Simple E-commerce API (AdaptNXT Internship Assignment)
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+This project is a full-stack E-commerce API and basic frontend application developed as part of the **Backend Developer Internship** assignment at **AdaptNXT**. It demonstrates core backend concepts using **Node.js**, **Express**, **MongoDB**, and **JWT**, along with a minimal **Next.js frontend UI**.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/bachusruthi55-6131s-projects/v0-backend-developer-intern)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/bT4n22PsAQZ)
+---
 
-## Overview
+## 🔍 About AdaptNXT
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+**AdaptNXT** is a tech-forward company focused on building scalable digital products with a growing emphasis on AI-powered solutions. This internship opportunity aims to help budding developers gain real-world backend experience, contribute to live projects, and apply industry best practices.
 
-## Deployment
+---
 
-Your project is live at:
+## 💼 Internship Role: Backend Developer Intern
 
-**[https://vercel.com/bachusruthi55-6131s-projects/v0-backend-developer-intern](https://vercel.com/bachusruthi55-6131s-projects/v0-backend-developer-intern)**
+**Key Learning Areas:**
 
-## Build your app
+- RESTful API design in Node.js
+- MongoDB database integration
+- JWT-based authentication & authorization
+- Scalable backend services
+- Collaboration with frontend engineers
+- Application of backend security practices
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/bT4n22PsAQZ](https://v0.dev/chat/projects/bT4n22PsAQZ)**
+## ✅ Project Overview
 
-## How It Works
+### 🎯 Objective
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Build a backend API with role-based access for a simple e-commerce platform and a basic frontend to interact with the API.
+
+### 🚀 Deployed Link
+
+🌐 [Live Demo on Vercel](https://v0-backend-developer-intern.vercel.app)
+
+---
+
+## 📦 Features Implemented
+
+| Feature                               | Description                                                | Status   |
+|--------------------------------------|------------------------------------------------------------|----------|
+| 🛒 Product Listings                  | View all available products                                | ✅ Done  |
+| 🛍️ Cart Management                  | Add, update, delete items in cart                          | ✅ Partial (Add Fix WIP) |
+| 📦 Order Creation                    | Place orders from cart                                     | ✅ Done  |
+| 👥 User Roles                        | `Admin` and `Customer` with separate access                | ✅ Done  |
+| 🔐 JWT Authentication               | Secure login/register with tokens                          | ✅ Done  |
+| 🖼️ Basic Frontend (Next.js)         | UI to interact with API (admin dashboard, product view)    | ✅ Done  |
+| 🔎 Search Products (Name/Category)   | Filter products using name or category                     | ✅ Done  |
+| 📄 Pagination on Products           | Paginated product listings                                 | ✅ Done  |
+
+---
+
+## 👩‍💻 Tech Stack
+
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose ODM)
+- **Authentication**: JWT
+- **Frontend**: Next.js (React + TypeScript)
+- **Styling**: Tailwind CSS
+- **Hosting**: Vercel (Frontend), MongoDB Atlas (Database)
+
+---
+
+## 🔑 Roles & Access
+
+- **Customer**:
+  - View products
+  - Add products to cart
+  - Place orders
+
+- **Admin**:
+  - All customer permissions
+  - Add, update, delete products
+
+---
+
+
